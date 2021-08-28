@@ -82,7 +82,7 @@ const ProductCard = props => {
                 : 'disabled:hover:bg-transparent disabled:hover:text-current disabled:hover:border-gray-200'
             }`}
           >
-            {adding ? 'Adding...' : 'Add to cart'}
+            {adding ? 'Ajout...' : 'Ajouter au panier'}
           </button>
         </div>
       </a>

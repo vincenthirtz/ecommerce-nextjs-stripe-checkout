@@ -21,7 +21,7 @@ const Product = props => {
   const handleOnAddToCart = () => {
     setAdding(true);
     toastId.current = toast.loading(
-      `Adding ${qty} item${qty > 1 ? 's' : ''}...`
+      `Ajout ${qty} de l'article${qty > 1 ? 's' : ''}...`
     );
     addItem(props, qty);
   };
@@ -33,7 +33,7 @@ const Product = props => {
     }
 
     setAdding(false);
-    toast.success(`${qty} ${props.name} added`, {
+    toast.success(`${qty} ${props.name} ajouté`, {
       id: toastId.current,
     });
     setQty(1);
@@ -42,9 +42,9 @@ const Product = props => {
   return router.isFallback ? (
     <>
       <Head>
-        <title>Loading...</title>
+        <title>Chargement...</title>
       </Head>
-      <p className="text-center text-lg py-12">Loading...</p>
+      <p className="text-center text-lg py-12">Chargement...</p>
     </>
   ) : (
     <>
@@ -67,13 +67,13 @@ const Product = props => {
           <div className="flex-1 max-w-md border border-opacity-50 rounded-md shadow-lg p-6">
             <h2 className="text-3xl font-semibold">{props.name}</h2>
             <p>
-              <span className="text-gray-500">Availability:</span>{' '}
-              <span className="font-semibold">In stock</span>
+              <span className="text-gray-500">Disponibilité:</span>{' '}
+              <span className="font-semibold">En stock</span>
             </p>
 
             {/* Price */}
             <div className="mt-8 border-t pt-4">
-              <p className="text-gray-500">Price:</p>
+              <p className="text-gray-500">Prix:</p>
               <p className="text-xl font-semibold">
                 {formatCurrency(props.price)}
               </p>
@@ -81,7 +81,7 @@ const Product = props => {
 
             <div className="mt-4 border-t pt-4">
               {/* Quantity */}
-              <p className="text-gray-500">Quantity:</p>
+              <p className="text-gray-500">Quantité:</p>
               <div className="mt-1 flex items-center space-x-3">
                 <button
                   onClick={() => setQty(prev => prev - 1)}
@@ -106,7 +106,7 @@ const Product = props => {
                 disabled={adding}
                 className="mt-8 border rounded py-2 px-6 bg-rose-500 hover:bg-rose-600 border-rose-500 hover:border-rose-600 focus:ring-4 focus:ring-opacity-50 focus:ring-rose-500 text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Add to cart ({qty})
+                Ajouter au panier ({qty})
               </button>
             </div>
           </div>

@@ -37,32 +37,32 @@ const Cart = () => {
   return (
     <>
       <Head>
-        <title>My Shopping Cart | AlterClass</title>
+        <title>Mon panier | Petit boukan</title>
       </Head>
       <div className="container xl:max-w-screen-xl mx-auto py-12 px-6">
         {cartCount > 0 ? (
           <>
-            <h2 className="text-4xl font-semibold">Your shopping cart</h2>
+            <h2 className="text-4xl font-semibold">Votre panier</h2>
             <p className="mt-1 text-xl">
-              {cartCount} items{' '}
+              {cartCount} articles{' '}
               <button
                 onClick={clearCart}
                 className="opacity-50 hover:opacity-100 text-base capitalize"
               >
-                (Clear all)
+                (Supprimer tout)
               </button>
             </p>
           </>
         ) : (
           <>
             <h2 className="text-4xl font-semibold">
-              Your shopping cart is empty.
+              Votre panier est vide.
             </h2>
             <p className="mt-1 text-xl">
-              Check out our awesome plants{' '}
+              Veuillez retourner sur la boutique pour voir les dernières nouveautés{' '}
               <Link href="/">
-                <a className="text-red-500 underline">here!</a>
-              </Link>
+                <a className="text-red-500 underline">ici</a>
+              </Link><span> !</span>
             </p>
           </>
         )}
@@ -141,7 +141,7 @@ const Cart = () => {
                 disabled={redirecting}
                 className="border rounded py-2 px-6 bg-rose-500 hover:bg-rose-600 border-rose-500 hover:border-rose-600 focus:ring-4 focus:ring-opacity-50 focus:ring-rose-500 text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-rose-500 max-w-max mt-4"
               >
-                {redirecting ? 'Redirecting...' : 'Go to Checkout'}
+                {redirecting ? 'Redirection...' : 'Paiement'}
               </button>
             </div>
           </div>
