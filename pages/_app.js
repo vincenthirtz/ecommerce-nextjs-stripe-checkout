@@ -4,12 +4,12 @@ import { CartProvider } from '@/hooks/use-shopping-cart';
 import { Header, Footer } from '@/components/index';
 import { Toaster } from 'react-hot-toast';
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }) {
   return (
     <>
       <Head>
         <title>
-          E-commerce store built with Next.js and Stripe checkout | AlterClass
+         | Petit Boukan
         </title>
         <meta
           name="description"
@@ -31,4 +31,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default App;
