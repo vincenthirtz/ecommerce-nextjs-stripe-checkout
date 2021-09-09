@@ -9,7 +9,7 @@ const MentionsLegales = () => {
     </title>
     <meta
       name="description"
-      content="E-commerce store built with Next.js and Stripe checkout by AlterClass.io"
+      content="Les mentions légales de Petit Boukan"
     />
     <link rel="icon" href="/favicon.ico" />
   </Head>

@@ -47,7 +47,6 @@ const Footer = () => (
                 className="border-b border-solid border-transparent hover:border-purple-800 hover:text-purple-800"
               >
                 Facebook
-                <i class="fab fa-facebook"></i>
               </a>
             </li>
           </ul>

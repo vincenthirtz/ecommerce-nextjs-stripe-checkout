@@ -20,7 +20,7 @@ const Menu = () => {
           </span>
         </a>
       </Link>
-      <Link href="/">
+      <Link href="/boutike">
         <a className="tracking-widest p-6">
           <span className="hidden sm:inline-block  text-sm ">Boutike</span>
         </a>
@@ -30,7 +30,7 @@ const Menu = () => {
           <span className="hidden sm:inline-block  text-sm ">Newsletter</span>
         </a>
       </Link>
-      <Link href="/">
+      <Link href="/contact">
         <a className="tracking-widest p-6">
           <span className="hidden sm:inline-block  text-sm ">Contact</span>
         </a>

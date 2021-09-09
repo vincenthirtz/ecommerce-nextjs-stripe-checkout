@@ -9,7 +9,7 @@ const Faq = () => {
     </title>
     <meta
       name="description"
-      content="E-commerce store built with Next.js and Stripe checkout by AlterClass.io"
+      content="Des détails sur la livraison et tout ce qui concerne les processus de paiement"
     />
     <link rel="icon" href="/favicon.ico" />
   </Head>
