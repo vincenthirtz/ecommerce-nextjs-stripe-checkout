@@ -15,7 +15,7 @@
 
 .bloc-boukanos {
   display: flex;
-  @media (max-width: $mobile_lg) {
+  @media (max-width: $tablet_portrait) {
     flex-direction: column;
     img {
         width: 100%;
