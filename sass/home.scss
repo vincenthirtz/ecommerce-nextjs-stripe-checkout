@@ -1,0 +1,15 @@
+.boukanos {
+    background-color: $beige;
+    width: 469px;
+    height: 569px;
+    color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2, p{
+        text-align: center;
+    }
+
+
+}

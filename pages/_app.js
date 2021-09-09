@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css';
+import '../sass/app.scss'
 import Head from 'next/head';
 import { CartProvider } from '@/hooks/use-shopping-cart';
 import { Header, Footer } from '@/components/index';
