@@ -1,15 +1,24 @@
 .boukanos {
-    background-color: $beige;
-    width: 469px;
-    height: 569px;
-    color: $blue;
-    display: flex;
+  background-color: $beige;
+  width: 469px;
+  height: 569px;
+  color: $blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2,
+  p {
+    text-align: center;
+  }
+}
+
+.bloc-boukanos {
+  display: flex;
+  @media (max-width: $mobile_lg) {
     flex-direction: column;
-    justify-content: center;
-
-    h2, p{
-        text-align: center;
+    img {
+        width: 100%;
     }
-
-
+  }
 }

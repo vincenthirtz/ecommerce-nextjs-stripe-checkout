@@ -11,7 +11,7 @@ export default function Home() {
           Home
         </div>
       </div>
-      <div className="flex">
+      <div className="bloc-boukanos">
         <Image src="/boukanos1.webp" alt="one" width={443} height={569} />
         <Image src="/boukanos2.webp" alt="two" width={443} height={569} />
         <div className="boukanos">

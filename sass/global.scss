@@ -4,7 +4,13 @@ body {
 }
 
 h2 {
-    font-size: large;
-    font-weight: bold;
-    padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.main {
+  @media (max-width: $mobile_lg) {
+    width: fit-content;
+  }
 }

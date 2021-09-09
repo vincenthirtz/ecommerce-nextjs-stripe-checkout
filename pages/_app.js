@@ -22,7 +22,7 @@ function App({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <CartProvider>
-        <div className="min-h-screen flex flex-col">
+        <div className="main min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">
             <Component {...pageProps} />
