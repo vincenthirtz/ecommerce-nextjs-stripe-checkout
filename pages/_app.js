@@ -12,11 +12,11 @@ function App({ Component, pageProps }) {
     <>
       <Head>
         <title>
-         | Petit Boukan
+        Designer culinaire | Petit Boukan | France
         </title>
         <meta
           name="description"
-          content="E-commerce store built with Next.js and Stripe checkout by AlterClass.io"
+          content="Petit boukan propose un service de design et d'accessoires culinaires. Vos évènement prennent de nouvelles formes et bousculent les codes traditionnels grâce à nos scénographies gourmandes."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
