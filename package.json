@@ -15,20 +15,20 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@heroicons/react": "^1.0.4",
     "@stripe/stripe-js": "^1.17.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "canvas-confetti": "^1.4.0",
     "micro": "^9.3.4",
-    "next": "11.1.0",
+    "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hot-toast": "^2.1.1",
-    "sass": "^1.38.2",
-    "stripe": "^8.171.0",
+    "sass": "^1.39.0",
+    "stripe": "^8.174.0",
     "swr": "^1.0.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.3",
+    "autoprefixer": "^10.3.4",
     "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.9"
+    "tailwindcss": "^2.2.14"
   }
 }
